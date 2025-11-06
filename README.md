@@ -41,46 +41,46 @@
   </table>
 </div>
 
-
-
 ## Descrição  
 
-O **Lar Justo** é uma plataforma digital de **inteligência artificial empática** criada para **garantir o direito à moradia digna** e reduzir a exclusão digital e burocrática no acesso a serviços públicos.  
-A solução atua como um **representante digital de direitos**, que acompanha cidadãos em situação de vulnerabilidade habitacional — desde o recebimento de uma notificação de despejo até o encaminhamento à Defensoria Pública ou Secretaria de Habitação.  
+&emsp;O **Rolê Seguro** é um microseguro contextual e digital da **BB Seguros**, desenvolvido para oferecer **proteção sob medida aos jovens (18-35 anos)** durante **eventos, festas e atividades universitárias**.  
 
-Por meio de uma interface simples, inclusiva e acessível por voz, o Lar Justo **traduz juridiquês em linguagem humana**, organiza provas, gera documentos oficiais e acompanha prazos automaticamente.  
+A solução integra-se diretamente em **aplicativos de ingressos, carteirinhas universitárias e ecossistemas de lazer**, permitindo que o usuário **ative o seguro com um clique** no momento do check-in ou da compra - sem burocracia, sem formulários e com cobertura imediata.  
+
+> Em essência: o BB Rolê Seguro transforma segurança em conveniência - protegendo os bens dos jovens nos momentos que mais importam.  
 
 ---
 
 ## Problema Resolvido  
 
-No Brasil, mais de **14 milhões de famílias** vivem em déficit habitacional e cerca de **500 mil pessoas** enfrentam risco direto de despejo ou desabamento.  
-Grande parte dessas famílias não possui **acesso à informação, orientação jurídica ou ferramentas digitais** para entender e reivindicar seus direitos.  
+&emsp;Em grandes centros urbanos, jovens sofrem com **roubos de celulares e golpes de transações sob coação** durante eventos e trajetos noturnos.  
+Segundo dados de segurança pública, o **roubo de celulares representa mais de 50% dos furtos urbanos** em capitais como São Paulo e Rio de Janeiro, afetando principalmente o público de 18 a 35 anos - grupo com **alta mobilidade, vida noturna ativa e forte dependência digital**.  
 
-O **Lar Justo** resolve essa lacuna ao:  
-- Traduzir notificações e documentos oficiais em **linguagem simples e empática**;  
-- **Automatizar a geração de cartas e requerimentos** formais;  
-- **Acompanhar casos de forma contínua**, evitando o abandono burocrático;  
-- Reduzir a dependência de deslocamento e intermediários para acessar o Estado.  
+&emsp;Além da perda material, há o **impacto psicológico e financeiro**, pois a maioria não possui seguro, e o bloqueio de contas e apps é demorado.  
 
-> **Em síntese:** o projeto transforma a burocracia em acolhimento e o juridiquês em clareza, garantindo que o cidadão seja ouvido, compreendido e acompanhado.  
+O **Rolê Seguro** enfrenta esse cenário ao:  
+- Oferecer **proteção imediata e por uso** (pague apenas quando precisar);  
+- Cobrir **roubo do celular e transações sob coação**;  
+- Integrar **assistência digital pós-ocorrência** (bloqueio rápido, Gov.br “Celular Seguro”);  
+- Proporcionar **processo 100% digital**, do check-in ao reembolso.  
+
+> **Resumo:** o produto redefine o seguro como um serviço fluido e contextual, onde o jovem sente-se protegido sem fricção.
 
 ---
 
 ## Tecnologia  
 
-A arquitetura do **Lar Justo** é **serverless, modular e acessível**, construída com tecnologias modernas e sustentáveis:  
+A arquitetura do **Rolê Seguro** é **modular, escalável e integrada via APIs**.  
 
 | **Camada** | **Tecnologia** | **Função Principal** |
 |-------------|----------------|----------------------|
-| **Frontend** | Next.js 15 + React + Tailwind + shadcn/ui | Interface responsiva, acessível e mobile-first. |
-| **Backend** | Next.js API Routes + Server Actions | Lógica de negócios, integração e controle da IA. |
-| **Banco de Dados** | PostgreSQL (Neon) + Prisma ORM | Armazenamento estruturado e vetorizado de dados. |
-| **IA (NLP e Visão)** | OpenAI GPT-4o / GPT-4o-mini | OCR, classificação de documentos, RAG, geração de textos e voz. |
-| **Vetorização** | pgvector | Busca semântica e contextualização de informações. |
-| **Infraestrutura** | Vercel (frontend e backend) + Neon Cloud | Deploy serverless, CI/CD automático e baixo custo operacional. |
-| **Áudio e Acessibilidade** | Web Speech API (STT/TTS) + OpenAI TTS | Interação por voz e leitura automática para inclusão digital. |
-| **Notificações** | Webhooks + Telegram / e-mail | Acompanhamento de prazos e status de casos em tempo real. |
+| **Frontend (SDK)** | React + TypeScript | Módulo embarcável para apps de ingressos e carteirinhas. |
+| **Backend (Core)** | Node.js + Express + GraphQL | Processamento de apólices, integração com BB Seguros e antifraude. |
+| **Banco de Dados** | PostgreSQL + Prisma ORM | Registro de apólices, sinistros e logs de eventos. |
+| **IA & Antifraude** | Python (FastAPI) + OpenAI API | Classificação de sinistros, verificação contextual e “escada de evidências”. |
+| **Geolocalização e Validação** | Google Maps API + Geofencing SDK | Define o perímetro e tempo de cobertura (check-in → check-out). |
+| **Infraestrutura** | AWS Lambda + S3 + CloudFront | Arquitetura serverless, com custo sob demanda e alta disponibilidade. |
+| **Segurança e LGPD** | Criptografia AES-256 + Anonimização de dados | Proteção de dados pessoais e rastreamento ético. |
 
 ---
 
@@ -88,17 +88,39 @@ A arquitetura do **Lar Justo** é **serverless, modular e acessível**, constru�
 
 | **Categoria** | **Descrição** |
 |----------------|----------------|
-| 💬 **IA Empática e Multimodal** | IA com linguagem humanizada e suporte a texto, voz e, futuramente, vídeo (para leitura de gestos e expressões). |
-| 🧠 **Raciocínio Contextual (RAG)** | A IA entende o contexto jurídico e social do caso, oferecendo respostas precisas e personalizadas. |
-| 🧾 **OCR e Geração de Documentos Automática** | Leitura de notificações, classificação de tipo de caso e criação de cartas prontas para Defensorias. |
-| 🕒 **Acompanhamento Ativo e Timeline Visual** | Linha do tempo interativa com etapas, prazos e lembretes automáticos. |
-| 📍 **Geolocalização e Acesso Territorial** | Identificação dos serviços públicos mais próximos (CRAS, Defensoria, Habitação). |
-| 🧏 **Acessibilidade e Inclusão Digital** | Uso de voz, tradução PT↔ES e interface simples para pessoas com baixo letramento digital. |
-| 🧩 **Painel Institucional** | Dashboard para Defensorias, CRAS e ONGs acompanharem métricas e impactos sociais. |
-| 🔒 **Segurança e LGPD** | Armazenamento anonimizado e criptografado, com total conformidade à LGPD. |
+| ⚡ **Ativação Instantânea** | O seguro é oferecido no **momento do check-in e da compra**, com ativação em 1 clique. |
+| 📍 **Cobertura Contextual** | Vigência limitada ao **perímetro e duração do evento**, com **geofencing** automático. |
+| 🔐 **Escada de Evidências Antifraude** | Validação em duas camadas: **FastTrack (R$ até 400)** e **Full (R$ até 3.000)**, conforme comprovação. |
+| 🤖 **IA de Verificação** | A IA analisa consistência entre GPS, horário e bloqueios realizados (operadora, Apple/Google, Gov.br). |
+| 💸 **Transações sob Coação** | Cobre prejuízos por **PIX ou saques forçados** até 2h após o evento. |
+| 🔔 **Assistência Digital Pós-Rolê** | Passo a passo de bloqueios e atalhos diretos para **Celular Seguro (Gov.br)**. |
+| 🤝 **Integração Simples via SDK** | Parceiros podem incluir o seguro em apps com poucas linhas de código. |
+| 🧾 **Apólice Modular (por evento ou assinatura)** | “Pague por evento” ou assine o **Passe do Rolê** para proteção mensal. |
+| 🧠 **Analytics e Dashboard BB** | Painel para monitorar adesão, sinistros e insights por tipo de evento. |
+| 🔒 **Compliance e LGPD** | Dados tratados de forma anonimizada e auditável pela SUSEP. |
 
 ---
 
-> **Em essência:** o **Lar Justo** é a união entre tecnologia, empatia e cidadania — uma IA que não apenas orienta, mas **permanece ao lado do cidadão até o recomeço.**
+## Validação e Mitigação de Riscos  
+
+Para garantir sustentabilidade e reduzir fraudes:  
+- **Geofencing + Janela Temporal:** cobertura ativa apenas dentro do perímetro e durante o evento.  
+- **Provas Mínimas:** check-in validado, geolocalização, bloqueio de dispositivo e/ou protocolo Celular Seguro.  
+- **Machine Learning Antifraude:** detecção de padrões anômalos (múltiplos sinistros por CPF, incoerências de GPS).  
+- **Parceria com Universidades e Apps de Ticketing:** pilotos controlados com amostras reais e análise de adesão.  
+
+---
+
+## Impacto Esperado  
+
+| **Dimensão** | **Métrica Esperada (MVP)** |
+|---------------|----------------------------|
+| 🎯 **Adoção** | +20% de adesão em eventos universitários parceiros. |
+| 💰 **Custo/Benefício** | Prêmio médio de R$ 2,90 / evento — alta acessibilidade. |
+| 📉 **Sinistralidade Alvo** | < 35% (MVP com “escada de evidências”). |
+| ❤️ **NPS Jovem** | +70 (sensação de segurança e confiança na marca BB). |
+| 🔄 **Conversão Pós-Piloto** | Migração para modelo de **assinatura mensal (Passe do Rolê)**. |
+
+---
 
 
