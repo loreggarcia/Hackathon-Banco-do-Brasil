@@ -1,21 +1,21 @@
-# Hackathon-Dev-de-Impacto
+# Hackathon-Banco-do-Brasil
 <div align="center">
 
-# Lar Justo
+# Rolê Seguro 
 
 </div>
 
 
 <p align="center">
-  <img src="./docs/assets/logo_com_fundo_sem_letra-convertido-de-jpg.png" alt="Lar Justo" width="600">
+  <img src="./docs/assets/logo_com_fundo_sem_letra-convertido-de-jpg.png" alt="Rolê Seguro" width="600">
 </p>
-<p align="center"><i>Representante digital do cidadão vulnerável</i></p>
+<p align="center"><i>Curta o momento e a gente cuida do resto</i></p>
 
 #
 
 
 
-## Team Members
+## Membros do Time
 <div align="center">
   <table>
     <tr>
@@ -32,9 +32,9 @@
         </a>
       </td>
       <td align="center">
-        <a href="https://www.linkedin.com/in/lavinia-mendonca/">
-          <img src="./docs/assets/lavinia-mendonca.jpeg" style="border-radius: 10%; width: 150px;" alt="Lavínia"/><br>
-          <sub><b>Lavínia Mendonça</b></sub>
+        <a href="https://www.linkedin.com/in/rayssaguedess/">
+          <img src="./docs/assets/Raissa-Guedes.jpeg" style="border-radius: 10%; width: 150px;" alt="Rayssa Guedes"/><br>
+          <sub><b>Rayssa Guedes</b></sub>
         </a>
       </td>
     </tr>
@@ -49,8 +49,6 @@ O **Lar Justo** é uma plataforma digital de **inteligência artificial empátic
 A solução atua como um **representante digital de direitos**, que acompanha cidadãos em situação de vulnerabilidade habitacional — desde o recebimento de uma notificação de despejo até o encaminhamento à Defensoria Pública ou Secretaria de Habitação.  
 
 Por meio de uma interface simples, inclusiva e acessível por voz, o Lar Justo **traduz juridiquês em linguagem humana**, organiza provas, gera documentos oficiais e acompanha prazos automaticamente.  
-
-**[>> Acesse o vídeo demo do projeto AQUI <<](https://drive.google.com/file/d/1hJQIJXGkipL9sOwm_O3_qHIpd2iZJpLP/view?usp=sharing)**  
 
 ---
 
