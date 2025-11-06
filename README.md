@@ -1,4 +1,4 @@
-# Hackathon-Banco-do-Brasil
+# Hackathon do Banco do Brasil
 <div align="center">
 
 # Rolê Seguro 
