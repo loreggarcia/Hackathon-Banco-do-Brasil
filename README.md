@@ -46,7 +46,7 @@
 
 &emsp;O **Rolê Seguro** é um microseguro contextual e digital da **BB Seguros**, desenvolvido para oferecer **proteção sob medida aos jovens (18-35 anos)** durante **eventos, festas e atividades universitárias**.  
 
-A solução integra-se diretamente em **aplicativos de ingressos, carteirinhas universitárias e ecossistemas de lazer**, permitindo que o usuário **ative o seguro com um clique** no momento do check-in ou da compra - sem burocracia, sem formulários e com cobertura imediata.  
+&emsp;A solução integra-se diretamente em **aplicativos de ingressos, carteirinhas universitárias e ecossistemas de lazer**, permitindo que o usuário **ative o seguro com um clique** no momento do check-in ou da compra - sem burocracia, sem formulários e com cobertura imediata.  
 
 > Em essência: o BB Rolê Seguro transforma segurança em conveniência - protegendo os bens dos jovens nos momentos que mais importam.  
 
