@@ -1,83 +1,107 @@
-# Jornada do Usuário  
+# Jornada do Usuário
 
-## Contexto  
-&emsp;A **Jornada do Usuário** descreve a experiência de jovens que utilizam o **BB Rolê Seguro**, desde o momento da **compra do ingresso** até o encerramento da cobertura.  
+## Contexto
 
-&emsp;O objetivo é mostrar como o microseguro atua de forma **contextual e digital**, garantindo tranquilidade antes, durante e depois dos eventos — com ativações simples, acompanhamento automatizado e resolução rápida de sinistros.  
+&emsp;A **Jornada do Usuário** descreve a experiência do **público jovem (18-35 anos)** ao utilizar o **BB Rolê Seguro**, desde a **compra do ingresso** até o encerramento da cobertura. O foco está em **universitários, atletas e jovens frequentadores de festas e shows** — o core do produto.
 
-&emsp;O **BB Rolê Seguro** é oferecido em **dois momentos estratégicos** da jornada:  
-1. **Durante a compra do ingresso**, quando o usuário pode adicionar o seguro com um clique;  
-2. **No check-in do evento**, quando a cobertura pode ser ativada ou confirmada automaticamente.  
+&emsp;O objetivo é mostrar como o microseguro atua de forma **contextual e digital**, garantindo tranquilidade antes, durante e depois dos eventos — com ativações simples, linguagem acessível e resolução rápida de sinistros.
 
----
+&emsp;O **BB Rolê Seguro** é oferecido em **dois momentos estratégicos** da jornada:
 
-### Persona 1: Marina 
-
-#### Cenário  
-&emsp;Marina, 21 anos, estudante universitária, adora festas de atléticas, mas já teve o celular furtado em uma delas. Ao comprar o ingresso para a Festa do Centro Acadêmico, ela nota a opção:  
-> *“Adicionar Rolê Seguro por R$ 2,90 — cobertura para este evento.”*  
-
-Curiosa, ela decide ativar o seguro no momento da **compra**.  
-
-#### Jornada em fases  
-
-1. **Compra do ingresso e ativação antecipada**  
-- Marina adiciona o Rolê Seguro ao carrinho.  
-- Recebe um resumo simples com coberturas: *Roubo de celular + Transações sob coação + Assistência digital.*  
-- Após a compra, o app confirma: *“Seu evento está protegido! A cobertura começa no check-in.”*
-
-2. **Chegada ao evento e validação automática**  
-- No dia da festa, Marina escaneia o QR Code do ingresso.  
-- O app valida a presença e ativa o seguro (check-in geolocalizado).  
-- A cobertura fica ativa durante todo o evento e por até 1h após o encerramento.  
-
-3. **Ocorrência e acionamento**  
-- Ao sair da festa, Marina percebe que o celular foi roubado.  
-- Ela acessa o app e escolhe “Abrir Sinistro”.  
-- A assistente digital pede evidências: bloqueio do aparelho, protocolo do Celular Seguro e breve descrição.  
-
-4. **Validação inteligente e reembolso**  
-- O sistema cruza o horário do check-in, a geolocalização e as provas enviadas.  
-- O caso é classificado como **FastTrack** e o reembolso de R$ 400 é aprovado em 48h.  
-
-5. **Encerramento e feedback**  
-- Marina recebe um resumo da ocorrência e orientações sobre prevenção.  
-- Ela avalia a experiência e passa a ativar o seguro em todos os próximos eventos.  
+1. **Durante a compra do ingresso**, quando o usuário pode adicionar o seguro com um clique;
+2. **No check-in do evento**, quando a cobertura pode ser ativada ou confirmada automaticamente.
 
 ---
 
-### Persona 2: Lucas — “O Atleta da Atlética”  
+### Jornada Primária: Lucas — Atleta Universitário (22 anos)
 
-#### Cenário  
-&emsp;Lucas, 24 anos, é integrante da atlética e organiza torneios universitários. Durante o último campeonato, houve vários furtos de celular. Ele decide **oferecer o Rolê Seguro junto aos ingressos e inscrições** para aumentar a segurança dos participantes.  
+**Público-alvo core**
 
-#### Jornada em fases  
+#### Cenário
 
-1. **Integração da atlética e configuração da oferta**  
-- Lucas ativa o módulo SDK do BB Rolê Seguro no sistema de ingressos da atlética.  
-- Ao abrir as vendas, cada participante visualiza:  
-  *“Proteja seu celular durante o evento — BB Rolê Seguro por R$ 3,90.”*
+&emsp;Lucas, 22 anos, é estudante e integrante ativo da atlética universitária. Ele participa de torneios, jogos e festas de integração. Em torneios recentes houve furtos e situações de transações sob coação entre participantes. Ao se inscrever no campeonato, Lucas vê a opção:
 
-2. **Compra e adesão coletiva**  
-- 30% dos inscritos adicionam o seguro já na compra do ingresso.  
-- O sistema gera automaticamente as apólices e vincula-as aos QR Codes dos ingressos.  
+> “Adicionar Rolê Seguro por R$ 2,90 — cobertura para este evento.”
 
-3. **Evento e cobertura ativa**  
-- Durante o torneio, o seguro é ativado automaticamente no **check-in** (validação por geolocalização).  
-- O painel da atlética exibe, em tempo real, o número de participantes protegidos.  
+Ele escolhe ativar a proteção no momento da inscrição para não se preocupar durante o torneio.
 
-4. **Sinistro e resolução em grupo**  
-- Um dos atletas tem o celular roubado; abre o sinistro no app.  
-- O sistema valida a ocorrência e libera o reembolso **em 72h**, sem burocracia.  
-- Lucas usa o painel para acompanhar a taxa de incidentes e satisfação dos alunos.  
+#### Jornada em fases
 
-5. **Encerramento e fidelização**  
-- O bom resultado leva a atlética a incluir o seguro como item padrão nas próximas festas e jogos.  
-- O BB Rolê Seguro passa a fazer parte do pacote de benefícios da entidade.  
+1. **Configuração da oferta e ativação na inscrição**
+
+- O organizador integra o SDK e Lucas vê o botão “Adicionar proteção” ao finalizar a inscrição.
+- Opção clara de cobertura: _Roubo de celular, transações sob coação e assistência digital._
+
+2. **Check-in e confirmação automática**
+
+- No dia do evento, Lucas faz o check-in via QR Code. O app valida presença e confirma a ativação (geofencing + janela temporal).
+- Lucas recebe um selo no ingresso digital: _Protegido pelo BB Rolê Seguro_.
+
+3. **Ocorrência e abertura de sinistro**
+
+- Um colega tem o celular furtado no intervalo entre partidas. Lucas orienta o colega a abrir sinistro pelo app.
+- O fluxo pede evidências mínimas (bloqueio do aparelho, protocolo do Celular Seguro, breve relato) e sugere passos automáticos (bloquear contas, contato com operadora).
+
+4. **Validação e decisão (FastTrack / Full)**
+
+- O sistema cruza check-in, horário e evidências. Casos com prova mínima válida entram no **FastTrack** (até R$400) e têm previsão de análise em ~48h.
+- Casos que exigem investigação entram no fluxo **Full** (valores maiores, até R$3.000) com prazo estendido e possibilidade de pedidos adicionais de prova.
+
+5. **Encerramento e aprendizagem**
+
+- Participantes recebem resumo do caso, orientações de prevenção e opção para consolidar o histórico no painel da atlética.
+- A experiência positiva aumenta a adoção do seguro em eventos seguintes.
 
 ---
 
-### Conclusão  
-&emsp;A **Jornada do Usuário** do BB Rolê Seguro reflete um novo paradigma de seguridade.Ao estar presente **na compra e no check-in**, o produto se adapta naturalmente à rotina dos jovens, garantindo proteção nos momentos de lazer sem atrito ou burocracia.  
+### Jornada Secundária: Renato — Fã de Shows (39 anos)
 
-> **BB Rolê Seguro — porque segurança também faz parte do rolê.**
+**Público de expansão / Validação de escalabilidade**
+
+#### Cenário
+
+&emsp;Renato, 39 anos, é fã de shows de rock e frequenta arenas, casas de show e festivais ao longo do ano. Ele costuma comprar ingressos antecipados e, em um festival recente, teve o celular furtado na multidão — além disso, teme golpes por transações forçadas após o incidente.
+
+Ao comprar o ingresso para um festival grande, Renato recebe a opção de proteção no checkout ou diretamente na carteira digital:
+
+> "Proteja seu ingresso e seu dispositivo — cobertura ativa durante o evento."
+
+**Nota:** Esta jornada demonstra que a solução funciona para públicos adultos, mas Renato não é o foco primário de marketing e desenvolvimento de features.
+
+#### Jornada em fases
+
+1. **Compra do ingresso / Ativação no checkout**
+
+- Renato adiciona o Rolê Seguro ao finalizar a compra ou aciona a proteção através do link no e-mail do ingresso.
+- Para usuários frequentes há a opção do **Passe do Rolê** (assinatura mensal) que cobre vários eventos sem nova ativação.
+
+2. **Check-in e sinal visual de proteção**
+
+- No dia do show, o check-in pelo app ou QR confirma a ativação; o ingresso mostra um selo e um contador de vigência (termina X horas pós-evento).
+
+3. **Ocorrência e suporte imediato**
+
+- Na saída do show, Renato percebe que o celular sumiu. Pelo app, acessa um fluxo guiado que prioriza bloquear contas, gerar protocolo Celular Seguro e abrir sinistro com upload de evidências.
+- O assistente oferece um checklist automático (operadora, Apple/Google, boletim online quando aplicável).
+
+4. **Análise e caminhos (FastTrack / Full)**
+
+- Se as provas forem suficientes para FastTrack, o caso segue análise rápida (estimativa ~48h para valores menores).
+- Dispositivos de maior valor ou casos com indícios de fraude são encaminhados ao fluxo Full com prazo maior e interação humana.
+
+5. **Resolução e recuperação**
+
+- Renato recebe atualização por push e e-mail sobre andamento e resultado. Em caso de reembolso, o processo financeiro é finalizado dentro do prazo previsto.
+- Ele recebe orientações para prevenir novos incidentes e a sugestão de aderir ao Passe do Rolê se participa de vários eventos no ano.
+
+---
+
+### Conclusão
+
+&emsp;A Jornada do Usuário do **BB Rolê Seguro** prioriza o **público jovem (18-35 anos)**, representado por Lucas — atleta universitário que busca proteção acessível, ativação instantânea e linguagem direta.
+
+&emsp;A jornada de Renato valida que o produto é escalável para fãs adultos de shows e outros perfis, mas **80% das decisões de UX, pricing e go-to-market são guiadas pelo comportamento e expectativas de jovens universitários e frequentadores de festas e eventos sociais**.
+
+&emsp;O produto mantém os princípios de **ativação simples, cobertura contextual (geofencing + janela temporal) e fluxo de sinistro escalável (FastTrack → Full)**, mas com tom, interface e parcerias focadas no público jovem.
+
+> **BB Rolê Seguro — proteção feita para o rolê dos jovens.**
