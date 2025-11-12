@@ -6,7 +6,13 @@ Estas personas representam os perfis de usuários do **BB Rolê Seguro**, priori
 
 ---
 
-### Persona Primária: Lucas – Atleta Universitário (22 anos)
+### Persona Primária: Lucas – Atleta Universitário
+
+
+
+<div align="center">
+  <img src="../assets/persona-lucas.png" alt="Lucas - Atleta Universitário" width="300" style="border-radius: 50%;"/>
+  </div>
 
 **Prioridade: Core / Público-alvo principal**
 
@@ -52,7 +58,11 @@ Ele é digital, usa apps de ingresso, QR Code e pagamentos instantâneos (PIX). 
 
 ---
 
-### Persona Secundária: Renato – Fã de Shows (39 anos)
+### Persona Secundária: Renato – Fã de Shows
+
+<div align="center">
+  <img src="../assets/persona-renato.png" alt="Renato - Fã de Shows" width="300" style="border-radius: 50%;"/>
+  </div>
 
 **Prioridade: Expansão / Público secundário**
 

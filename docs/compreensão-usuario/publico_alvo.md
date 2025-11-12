@@ -22,7 +22,7 @@ Embora a solução seja escalável para outros perfis (profissionais em feiras, 
 - Risco de furtos em aglomerações e transações sob coação ao retornar para casa.
 - Procuram solução simples, ativada no check-in ou compra.
 
-### 3. Jovens fãs de música e shows (22-35 anos)
+### 3. Jovens fãs de música e shows (18-35 anos)
 
 - Frequentam arenas, festivais e turnês nacionais/internacionais.
 - Possuem dispositivos de maior valor e usam carteiras digitais.
@@ -50,7 +50,6 @@ Embora a solução seja escalável para outros perfis (profissionais em feiras, 
 ---
 
 ## Características do Público Jovem (Core)
-
 | Dimensão                    | Descrição                                                                                                                                  |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Perfil Econômico**        | Estudantes e jovens profissionais com renda variável; sensíveis a preço mas dispostos a pagar por conveniência (R$ 2,90 - R$ 5,90/evento). |
