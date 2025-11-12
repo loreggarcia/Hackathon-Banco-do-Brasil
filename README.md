@@ -7,7 +7,8 @@
 
 
 <p align="center">
-  <img src="./docs/assets/logo_com_fundo_sem_letra-convertido-de-jpg.png" alt="Rolê Seguro" width="600">
+  <img src="./docs/assets/role-seguro-logo.png" alt="Rolê Seguro" width="200"
+  style="border-radius: 50%;"/>
 </p>
 <p align="center"><i>Curta o momento e a gente cuida do resto</i></p>
 
@@ -21,7 +22,7 @@
     <tr>
       <td align="center">
         <a href="https://www.linkedin.com/in/david-deodato/">
-          <img src="./docs/assets/David-Deodato.png" style="border-radius: 10%; width: 150px;" alt="David"/><br>
+          <img src="./docs/assets/david-deodato.png" style="border-radius: 10%; width: 150px;" alt="David"/><br>
           <sub><b>David Deodato</b></sub>
         </a>
       </td>
@@ -33,7 +34,7 @@
       </td>
       <td align="center">
         <a href="https://www.linkedin.com/in/rayssaguedess/">
-          <img src="./docs/assets/Raissa-Guedes.jpeg" style="border-radius: 10%; width: 150px;" alt="Rayssa Guedes"/><br>
+          <img src="./docs/assets/rayssa-guedes.jpeg" style="border-radius: 10%; width: 150px;" alt="Rayssa Guedes"/><br>
           <sub><b>Rayssa Guedes</b></sub>
         </a>
       </td>
